@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tvTimeForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="15sp"
+        />
+    <ImageView
+        android:id="@+id/ivForecast"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cloudy"
+        />
+    <TextView
+        android:id="@+id/tvTemperatureForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="17sp"
+        />
+</LinearLayout>
